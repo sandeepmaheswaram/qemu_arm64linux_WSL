@@ -1,6 +1,7 @@
 
 # Install WSL on Windows 10
 Use Powershell in Windows
+
 Install ubuntu on wsl on non C drive (F: or E: wherever you have space)
 
 $mkdir WSL
