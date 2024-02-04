@@ -43,7 +43,7 @@ $cd buildroot
 
 $make qemu_aarch64_virt_defconfig
 
-Install any dependencies sudo apt install commands if you get any error
+Install any dependencies with sudo apt install commands if you get any error
 
 This will create default configuration
 
