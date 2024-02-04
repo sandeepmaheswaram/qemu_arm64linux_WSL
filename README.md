@@ -36,7 +36,7 @@ $sudo apt-get install build-essential -y
 
 
 
-# Download Buildroot
+# Compilation using Buildroot
 $git clone --depth=1 https://github.com/buildroot/buildroot
 
 $cd buildroot
