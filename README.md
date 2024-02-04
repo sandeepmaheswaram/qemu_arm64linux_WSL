@@ -9,13 +9,19 @@ $cd WSL
 
 $Invoke-WebRequest -Uri https://aka.ms/wslubuntu2204 -OutFile Ubuntu.appx -UseBasicParsing
 
+Rename the downlaoded file
+
 $move .\Ubuntu.appx .\Ubuntu.zip
+
+unzip
 
 $Expand-Archive .\Ubuntu.zip
 
+Run
+
 $.\Ubuntu.exe
 
-Give the username and password.
+Give the username and password to complete the installation.
 
 Run below commands to make the build environment ready
 
