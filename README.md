@@ -17,7 +17,7 @@ $.\Ubuntu.exe
 
 Give the username and password.
 
-Run 
+Run below commands to make the build environment ready
 
 $sudo apt-get update -y
 
