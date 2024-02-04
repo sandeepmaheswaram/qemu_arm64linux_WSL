@@ -1,5 +1,6 @@
-# qemu_arm64linux_WSL
+
 # Install WSL on Windows 10
+Install ubuntu on wsl
 
 
 # Download Buildroot
