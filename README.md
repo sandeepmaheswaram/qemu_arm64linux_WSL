@@ -2,12 +2,19 @@
 # Install WSL on Windows 10
 Use Powershell in Windows
 Install ubuntu on wsl on non C drive (F: or E: wherever you have space)
+
 $mkdir WSL
+
 $cd WSL
+
 $Invoke-WebRequest -Uri https://aka.ms/wslubuntu2204 -OutFile Ubuntu.appx -UseBasicParsing
+
 $move .\Ubuntu.appx .\Ubuntu.zip
+
 $Expand-Archive .\Ubuntu.zip
+
 $.\Ubuntu.exe
+
 Give the username and password.
 
 Run 
