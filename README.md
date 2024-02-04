@@ -54,3 +54,8 @@ This is used customize the build root configuration.
 Select the externl downloaded and installed toolchain in configurtion to save the build time 
 
 $make
+
+Run start-qemu.sh in the below directory
+
+$cd buildroot/output/images
+$./start-qemu.sh
