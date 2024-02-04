@@ -58,4 +58,5 @@ $make
 Run start-qemu.sh in the below directory
 
 $cd buildroot/output/images
+
 $./start-qemu.sh
