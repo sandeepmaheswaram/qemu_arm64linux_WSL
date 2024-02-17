@@ -60,3 +60,15 @@ Run start-qemu.sh in the below directory
 $cd buildroot/output/images
 
 $./start-qemu.sh
+
+# Linux Kernel Configuration in Buildroot
+
+$make linux-menuconfig  
+
+$make linux-update-defconfig
+
+$make
+
+
+
+$
